@@ -35,7 +35,7 @@ logs:
 
 ### Create Custom Log Collection
 
-* Create a custom directory within `sudo mkdir -p /etc/datadog-agent/conf.d`
+* Create a custom directory within `sudo mkdir -p /etc/datadog-agent/conf.d/my_custom.d`
 * Create a file within the new custom dir: `sudo touch /etc/datadog-agent/conf.d/my_custom.d/conf.yaml`
 
 > file: `/etc/datadog-agent/conf.d/my_custom.d/conf.yaml`
