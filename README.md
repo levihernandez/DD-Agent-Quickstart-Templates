@@ -3,7 +3,7 @@ Datadog Agent Quickstart Templates
 
 The Datadog uses a single to collect monitoring data from a host 
 
-## Step1: Agent Installer
+## Step1: [Agent Installer](agent_install.md)
 - [x] Configure Agent export environment variables
 - [x] Customize the Datadog installer command
 - [x] Run the command
