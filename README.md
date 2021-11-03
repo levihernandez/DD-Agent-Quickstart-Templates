@@ -32,8 +32,8 @@ Supported: Java, Python, Ruby, C++, Go, NodeJS, .NET Framework, .NET Core, PHP
 
 > Java APM example:
 
-- [ ] download Datadog agent library
-- [ ] enable Profiler: Java, Python, Go, Ruby
-- [ ] enable log injection
-- [ ] enable tracing sampling rate
+- [x] download Datadog agent library
+- [x] enable Profiler: Java, Python, Go, Ruby
+- [x] enable log injection
+- [x] enable tracing sampling rate
 - [ ] customize tags
