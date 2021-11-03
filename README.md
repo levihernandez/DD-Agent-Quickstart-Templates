@@ -16,7 +16,7 @@ The Datadog uses a single to collect monitoring data from a host
 - [x] enable Live Process collection
 - [x] enable NPM collection
 - [x] enable Security detection
-- [x] enable Profiler (Java, Python, Go, Ruby)
+
 
 ## Step3: [Agent Integrations](agent_integrations.md) [Optional]
 - [x] enable Spark integration and Spark log collection
@@ -25,3 +25,15 @@ The Datadog uses a single to collect monitoring data from a host
 
 ## Step4: [Agent Custom Checks](agent_custom_checks.md) [Optional]
 - [ ] custom check - http status code check
+
+## Step5: [Application Tracing Configuration]
+
+Supported: Java, Python, Ruby, C++, Go, NodeJS, .NET Framework, .NET Core, PHP
+
+> Java APM example:
+
+- [ ] download Datadog agent library
+- [ ] enable Profiler: Java, Python, Go, Ruby
+- [ ] enable log injection
+- [ ] enable tracing sampling rate
+- [ ] customize tags
