@@ -13,15 +13,17 @@ For a detailed information on the following technologies, please follow the link
 
 ## Variables
 
+The main variables can be declared at the environment level or can also be injected in the Java parameters.
+
 * Environment level variables
-  * enable service: ``
-  * enable version: ``
-  * enable environment: ``
+  * enable service: `export DD_ENV=prod`
+  * enable version: `export DD_SERVICE=my-app`
+  * enable environment: `export DD_VERSION=1.0`
   * enable log injection: `export DD_LOGS_INJECTION=true`
 * JAVA options variables
-  * enable service: ``
-  * enable version: ``
-  * enable environment: ``
+  * enable environment: `-Ddd.env=prod`
+  * enable service: `-Ddd.service=my-app`
+  * enable version: `-Ddd.version=1.0`
   * enable log injection: `-Ddd.logs.injection=true`
 
 ## JAVA APM tracing
