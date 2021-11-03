@@ -19,8 +19,8 @@ The Datadog uses a single to collect monitoring data from a host
 - [x] enable Profiler (Java, Python, Go, Ruby)
 
 ## Step3: [Agent Integrations](agent_integrations.md) [Optional]
-- [ ] enable Oracle
-- [ ] create custom log collection
+- [x] enable Spark
+- [x] create custom log collection
 - [ ] create custom JMX collection
 
 ## Step4: [Agent Custom Checks](agent_custom_checks.md) [Optional]
