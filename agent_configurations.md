@@ -76,6 +76,73 @@ process_config:
   enabled: "true"
 ```
 
+* Clone the system-probe file:
 
+```bash
+sudo -u dd-agent cp /etc/datadog-agent/system-probe.yaml.example /etc/datadog-agent/system-probe.yaml
+```
+
+* Edit the system-probe file:
+
+> file: `/etc/datadog-agent/system-probe.yaml`
+
+```yaml
+network_config:
+  enabled: true
+```
 
 ## Enable: Logs, APM, Live Process, NPM, Security
+
+Activate Log collection, Application Performance Monitor tracing, Live Process, Network Performance Monitor, Host/Container Security
+
+> file: `/etc/datadog-agent/datadog.yaml`
+
+```yaml
+api_key: <your-dd-api-key
+tags: ["env:prod","service:shipping","version:0.0.1","environment:prod-shipping"]
+env: prod
+# enable log collection
+logs_enabled: true
+# enable APM tracing
+apm_config:
+  enabled: true
+# enable Live Process collection
+process_config:
+  enabled: "true"
+```
+
+* Clone the system-probe file for Network Performance Monitor (NPM):
+
+```bash
+sudo -u dd-agent cp /etc/datadog-agent/system-probe.yaml.example /etc/datadog-agent/system-probe.yaml
+```
+
+* Edit the system-probe file:
+
+> file: `/etc/datadog-agent/system-probe.yaml`
+
+```yaml
+network_config:
+  enabled: true
+```
+
+* Configure Host/Container Security:
+
+
+```yaml
+$ sudo vi /etc/datadog-agent/security-agent.yaml
+runtime_security_config:
+  enabled: true
+
+compliance_config:
+  enabled: true
+```
+
+```yaml
+$ sudo vi /etc/datadog-agent/system-probe.yaml
+network_config:
+  enabled: true
+
+runtime_security_config:
+ enabled: true
+```
