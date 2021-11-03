@@ -9,7 +9,7 @@ Activate log collection.
 > file: `/etc/datadog-agent/datadog.yaml`
 
 ```yaml
-api_key: <your-dd-api-key
+api_key: <your-dd-api-key>
 tags: ["env:prod","service:shipping","version:0.0.1","environment:prod-shipping"]
 env: prod
 # enable log collection
@@ -26,7 +26,7 @@ Activate Log collection & APM tracing
 > file: `/etc/datadog-agent/datadog.yaml`
 
 ```yaml
-api_key: <your-dd-api-key
+api_key: <your-dd-api-key>
 tags: ["env:prod","service:shipping","version:0.0.1","environment:prod-shipping"]
 env: prod
 # enable log collection
@@ -45,7 +45,7 @@ Activate Log collection, APM tracing, Live Process
 > file: `/etc/datadog-agent/datadog.yaml`
 
 ```yaml
-api_key: <your-dd-api-key
+api_key: <your-dd-api-key>
 tags: ["env:prod","service:shipping","version:0.0.1","environment:prod-shipping"]
 env: prod
 # enable log collection
@@ -67,7 +67,7 @@ Activate Log collection, Application Performance Monitor tracing, Live Process, 
 > file: `/etc/datadog-agent/datadog.yaml`
 
 ```yaml
-api_key: <your-dd-api-key
+api_key: <your-dd-api-key>
 tags: ["env:prod","service:shipping","version:0.0.1","environment:prod-shipping"]
 env: prod
 # enable log collection
@@ -105,7 +105,7 @@ Activate Log collection, Application Performance Monitor tracing, Live Process, 
 > file: `/etc/datadog-agent/datadog.yaml`
 
 ```yaml
-api_key: <your-dd-api-key
+api_key: <your-dd-api-key>
 tags: ["env:prod","service:shipping","version:0.0.1","environment:prod-shipping"]
 env: prod
 # enable log collection
