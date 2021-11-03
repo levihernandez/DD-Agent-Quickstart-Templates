@@ -36,6 +36,8 @@ apm_config:
   enabled: true
 ```
 
+**NOTE:** to enable integration logs or create a custom log collection see [Agent Integrations](agent_integrations.md)
+
 ## Enable: Logs, APM, Live Process
 
 Activate Log collection, APM tracing, Live Process
@@ -55,6 +57,8 @@ apm_config:
 process_config:
   enabled: "true"
 ```
+
+**NOTE:** to enable integration logs or create a custom log collection see [Agent Integrations](agent_integrations.md)
 
 ## Enable: Logs, APM, Live Process, NPM
 
@@ -91,6 +95,8 @@ sudo -u dd-agent cp /etc/datadog-agent/system-probe.yaml.example /etc/datadog-ag
 network_config:
   enabled: true
 ```
+
+**NOTE:** to enable integration logs or create a custom log collection see [Agent Integrations](agent_integrations.md)
 
 ## Enable: Logs, APM, Live Process, NPM, Security
 
@@ -143,3 +149,5 @@ runtime_security_config:
 compliance_config:
   enabled: true
 ```
+
+**NOTE:** to enable integration logs or create a custom log collection see [Agent Integrations](agent_integrations.md)
