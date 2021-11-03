@@ -87,6 +87,7 @@ sudo -u dd-agent cp /etc/datadog-agent/system-probe.yaml.example /etc/datadog-ag
 > file: `/etc/datadog-agent/system-probe.yaml`
 
 ```yaml
+# enable NPM collection
 network_config:
   enabled: true
 ```
@@ -122,27 +123,23 @@ sudo -u dd-agent cp /etc/datadog-agent/system-probe.yaml.example /etc/datadog-ag
 > file: `/etc/datadog-agent/system-probe.yaml`
 
 ```yaml
+# enable NPM collection
 network_config:
   enabled: true
+# enable Security detection
+runtime_security_config:
+ enabled: true
 ```
 
 * Configure Host/Container Security:
 
+> file: ` /etc/datadog-agent/security-agent.yaml`
 
 ```yaml
-$ sudo vi /etc/datadog-agent/security-agent.yaml
+# enable runtime security
 runtime_security_config:
   enabled: true
-
+# enable compliance 
 compliance_config:
   enabled: true
-```
-
-```yaml
-$ sudo vi /etc/datadog-agent/system-probe.yaml
-network_config:
-  enabled: true
-
-runtime_security_config:
- enabled: true
 ```
