@@ -26,7 +26,7 @@ The Datadog uses a single to collect monitoring data from a host
 ## Step4: [Agent Custom Checks](agent_custom_checks.md) [Optional]
 - [ ] custom check - http status code check
 
-## Step5: [Application Tracing Configuration]
+## Step5: [Application Tracing Configuration](application_tracing_configuration.md), JAVA example.
 
 Supported: Java, Python, Ruby, C++, Go, NodeJS, .NET Framework, .NET Core, PHP
 
