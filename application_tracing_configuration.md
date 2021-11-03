@@ -93,13 +93,4 @@ Datadog can automaticall inject log tracing ids, see [Connect Traces and Logs](h
   ```
   * [logback](https://docs.datadoghq.com/logs/log_collection/java/?tab=logback#inject-trace-ids-in-your-logs)
 
-
-
-
-
-
-
-
-
-
-
+**NOTE:** it may require the restart of the application and the Datadog agent after making log config changes.
