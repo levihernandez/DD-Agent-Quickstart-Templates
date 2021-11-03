@@ -6,7 +6,7 @@ Configure the export variables, copy and paste them into your host:
 
 ```shell
 export DD_API_KEY=<your-dd-api-key>
-export DD_TAGS="env:<dev|prod>","service:<service-name>","version:<version-number>","environment:<dev|prod-shipping>"
+export DD_TAGS=["env:<dev|prod>","service:<service-name>","version:<version-number>","environment:<dev|prod-shipping>"]
 export DD_SITE="datadoghq.com"
 export HOSTNAME=$(hostname -s)
 
