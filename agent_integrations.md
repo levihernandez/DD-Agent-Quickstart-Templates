@@ -51,3 +51,10 @@ logs:
         name: new_log_start_with_date
         pattern: \d{4}\-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])
 ```
+
+A few things are done in the custom or out-of-the-box log configuration:
+
+* Defined a file tailing path
+* set a service name
+* set a source name (program generating the log such as java, nodejs, python, etc)
+* set a log processing rule, in this case we enabled the multi line to properly collect stack traces
