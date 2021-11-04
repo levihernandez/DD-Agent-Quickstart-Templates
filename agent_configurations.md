@@ -151,3 +151,23 @@ compliance_config:
 ```
 
 **NOTE:** to enable integration logs or create a custom log collection see [Agent Integrations](agent_integrations.md)
+
+
+## Enable: Logs, Live Process
+
+Activate Log collection, APM tracing, Live Process
+
+> file: `/etc/datadog-agent/datadog.yaml`
+
+```yaml
+api_key: <your-dd-api-key>
+tags: ["env:prod","service:shipping","version:0.0.1","environment:prod-shipping"]
+env: prod
+# enable log collection
+logs_enabled: true
+# enable Live Process collection
+process_config:
+  enabled: "true"
+```
+
+**NOTE:** to enable integration logs or create a custom log collection see [Agent Integrations](agent_integrations.md)
